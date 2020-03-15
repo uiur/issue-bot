@@ -20,5 +20,9 @@
   },
   "lint-staged": {
     "*.{js,css,md}": "prettier --write"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "emoji-to-issue": "uiur/emoji-to-issue#master"
   }
 }
