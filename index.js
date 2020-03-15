@@ -1,15 +1,13 @@
 const axios = require("axios");
 const projectUsers = require("./github-project-user.json");
 
-// const CHANNEL = "#develop";
-// const issueRepo = "";
 const { ReactionHandler } = require("emoji-to-issue");
 
 exports.otochan = (req, res) => {
   console.log("Received request:", req.body);
 
   if (req.body.challenge) {
-    res.send(req.body.challenge)
+    res.send(req.body.challenge);
     return;
   }
 
